@@ -69,15 +69,6 @@ a {
     width: 60%;
 }
 
-/*ICONOS*/
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-}
-
 .nav-item {
     padding: 0 2rem 0 2rem;
 }
@@ -138,6 +129,9 @@ footer {
     min-height: 8rem;
 }
 
+#contact-success {
+    display: none;
+}
 
 
 footer ul {
@@ -175,7 +169,7 @@ footer li {
         width: auto;
     }
     .card {
-        margin: 1rem;
+        margin: 1rem 0;
         width: 100%;
     }
 
@@ -202,6 +196,10 @@ footer li {
 
 
     form {
+        min-width: 100%;
+    }
+
+    #contact-success {
         min-width: 100%;
     }
 }
